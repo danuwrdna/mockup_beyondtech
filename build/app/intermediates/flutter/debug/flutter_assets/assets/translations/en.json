@@ -1,0 +1,97 @@
+{
+    "boarding": {
+        "page1": {
+            "title": "Digital Transaction",
+            "desc": "Let's get you started with BeyondTech for seamless transactions."
+        },
+        "page2": {
+            "title": "Digital Remittance",
+            "desc": "We make it easy for you to provice global payment access in just a few clicks."
+        },
+        "page3": {
+            "title": "Digital Payment",
+            "desc": "We provide digital payment solutions for all your transaction needs"
+        },
+        "next": "Next",
+        "skip": "Skip",
+        "continue": "Continue",
+        "confirm": "confirm"
+    },
+    "signCheckPage": {
+        "welcome_to": "Welcome to BeyondTech",
+        "register_easy": "Log in or sign up in just a few easy steps",
+        "terms_privacy_1": "By clicking ",
+        "terms_privacy_2": ", you agree with the ",
+        "terms_privacy_3": "Terms and Conditions ",
+        "terms_privacy_4": "and ",
+        "terms_privacy_5": "Privacy Policy ",
+        "terms_privacy_6": "regulated by us.",
+        "wait_a_minute": "Wait a minute",
+        "ok_continue": "Ok, Continue",
+        "registered": "This number is already registered. Please login to continue.",
+        "unregistered": "This number has not been registered. Please continue your account registration.",
+        "beware_scam": "Beware of scams since we never give links, asks for PIN, OTP code or money.",
+        "learn_more": "Learn More"
+    },
+    "loginPage": {
+        "please_enter_phone": "Please enter your phone number or email",
+        "please_enter_pass": "Please enter your password",
+        "password_must_be": "Password must be at least 7 characters long",
+        "welcome_back": "Welcome Back",
+        "securely_access": "Securely Access Your Account to Manage Payments and Transactions",
+        "phone_email": "Phone Number / Email",
+        "Password": "Password",
+        "Forgotpass": "Forgot Password?",
+        "Login": "Login"
+    },
+    "forgotPassPage": {
+        "page1": {
+            "please_input_phone": "Please enter your phone number",
+            "we_will_send": "We will send a verification code to your registered phone number"
+        },
+        "page2": {
+            "otp_verif_title": "OTP Verification",
+            "enter_the_code": "Enter the code you received via",
+            "enter_the_code_at": "at",
+            "cant_get_code": "Can't get a code yet? ",
+            "resend": "Resend",
+            "change_method": "Do you want to change the method? "
+        },
+        "page3": {
+            "lets_create": "Let's Create a New Password",
+            "new_pass": "New Password",
+            "confirm_newpass": "Confirm New Password"
+        }
+    },
+    "homepage": {
+        "enjoy_our_services": "Enjoy Our Services",
+        "recommendations_for_you": "Recommendations For You",
+        "view_all": "View All",
+        "recent_transaction": "Recent Transactions",
+        "more": "More"
+    },
+    "historypage": {
+        "transaction_history": "Transaction History",
+        "all": "All",
+        "received": "Received",
+        "spent": "Spent",
+        "ongoing_transaction": "Ongoing Transaction",
+        "need_confirm": "Need Confirmation"
+    },
+    "notification": {
+        "notification_title": "Notifications",
+        "inbox": "Inbox"
+    },
+    "profile": {
+        "account_security": "Account and Security",
+        "general": "General",
+        "invite_friends": "Invite Your Friends",
+        "update_acc": "Update Account Data",
+        "language": "Language",
+        "biomethric": "Biomethric Authentication",
+        "rateus": "Rate Us",
+        "tnc": "Terms & Conditions",
+        "privacypolicy": "Privacy Policy",
+        "logout": "Log Out"
+    }
+}

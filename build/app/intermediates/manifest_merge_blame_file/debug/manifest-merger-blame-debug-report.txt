@@ -1,0 +1,308 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.zenmultimedia.bpay.bpay_mobile"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="35" />
+10    <!--
+11         The INTERNET permission is required for development. Specifically,
+12         the Flutter tool needs it to communicate with the running application
+13         to allow setting breakpoints, to provide hot reload, etc.
+14    -->
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->C:\KerjaBeyondTech\projectflutter\mobile-develop\android\app\src\main\AndroidManifest.xml:2:5-66
+15-->C:\KerjaBeyondTech\projectflutter\mobile-develop\android\app\src\main\AndroidManifest.xml:2:22-64
+16    <uses-permission
+16-->C:\KerjaBeyondTech\projectflutter\mobile-develop\android\app\src\main\AndroidManifest.xml:3:5-80
+17        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+17-->C:\KerjaBeyondTech\projectflutter\mobile-develop\android\app\src\main\AndroidManifest.xml:3:22-78
+18        android:maxSdkVersion="28" />
+18-->[:camera_android_camerax] C:\KerjaBeyondTech\projectflutter\mobile-develop\build\camera_android_camerax\intermediates\merged_manifest\debug\AndroidManifest.xml:14:9-35
+19    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+19-->C:\KerjaBeyondTech\projectflutter\mobile-develop\android\app\src\main\AndroidManifest.xml:4:5-79
+19-->C:\KerjaBeyondTech\projectflutter\mobile-develop\android\app\src\main\AndroidManifest.xml:4:22-77
+20    <uses-permission android:name="android.permission.USE_BIOMETRIC" />
+20-->C:\KerjaBeyondTech\projectflutter\mobile-develop\android\app\src\main\AndroidManifest.xml:5:5-71
+20-->C:\KerjaBeyondTech\projectflutter\mobile-develop\android\app\src\main\AndroidManifest.xml:5:22-69
+21    <!--
+22 Required to query activities that can process text, see:
+23         https://developer.android.com/training/package-visibility?hl=en and
+24         https://developer.android.com/reference/android/content/Intent#ACTION_PROCESS_TEXT.
+25
+26         In particular, this is used by the Flutter engine in io.flutter.plugin.text.ProcessTextPlugin.
+27    -->
+28    <queries>
+28-->C:\KerjaBeyondTech\projectflutter\mobile-develop\android\app\src\main\AndroidManifest.xml:28:5-37:15
+29        <intent>
+29-->C:\KerjaBeyondTech\projectflutter\mobile-develop\android\app\src\main\AndroidManifest.xml:29:9-32:18
+30            <action android:name="android.intent.action.PROCESS_TEXT" />
+30-->C:\KerjaBeyondTech\projectflutter\mobile-develop\android\app\src\main\AndroidManifest.xml:30:13-72
+30-->C:\KerjaBeyondTech\projectflutter\mobile-develop\android\app\src\main\AndroidManifest.xml:30:21-70
+31
+32            <data android:mimeType="text/plain" />
+32-->C:\KerjaBeyondTech\projectflutter\mobile-develop\android\app\src\main\AndroidManifest.xml:31:13-50
+32-->C:\KerjaBeyondTech\projectflutter\mobile-develop\android\app\src\main\AndroidManifest.xml:31:19-48
+33        </intent>
+34        <intent>
+34-->C:\KerjaBeyondTech\projectflutter\mobile-develop\android\app\src\main\AndroidManifest.xml:33:9-36:18
+35            <action android:name="android.intent.action.VIEW" />
+35-->C:\KerjaBeyondTech\projectflutter\mobile-develop\android\app\src\main\AndroidManifest.xml:34:13-65
+35-->C:\KerjaBeyondTech\projectflutter\mobile-develop\android\app\src\main\AndroidManifest.xml:34:21-62
+36
+37            <data android:scheme="https" />
+37-->C:\KerjaBeyondTech\projectflutter\mobile-develop\android\app\src\main\AndroidManifest.xml:31:13-50
+38        </intent>
+39    </queries>
+40
+41    <uses-feature android:name="android.hardware.camera.any" />
+41-->[:camera_android_camerax] C:\KerjaBeyondTech\projectflutter\mobile-develop\build\camera_android_camerax\intermediates\merged_manifest\debug\AndroidManifest.xml:8:5-64
+41-->[:camera_android_camerax] C:\KerjaBeyondTech\projectflutter\mobile-develop\build\camera_android_camerax\intermediates\merged_manifest\debug\AndroidManifest.xml:8:19-61
+42
+43    <uses-permission android:name="android.permission.CAMERA" />
+43-->[:camera_android_camerax] C:\KerjaBeyondTech\projectflutter\mobile-develop\build\camera_android_camerax\intermediates\merged_manifest\debug\AndroidManifest.xml:10:5-65
+43-->[:camera_android_camerax] C:\KerjaBeyondTech\projectflutter\mobile-develop\build\camera_android_camerax\intermediates\merged_manifest\debug\AndroidManifest.xml:10:22-62
+44    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+44-->[:camera_android_camerax] C:\KerjaBeyondTech\projectflutter\mobile-develop\build\camera_android_camerax\intermediates\merged_manifest\debug\AndroidManifest.xml:11:5-71
+44-->[:camera_android_camerax] C:\KerjaBeyondTech\projectflutter\mobile-develop\build\camera_android_camerax\intermediates\merged_manifest\debug\AndroidManifest.xml:11:22-68
+45    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- suppress DeprecatedClassUsageInspection -->
+45-->[:connectivity_plus] C:\KerjaBeyondTech\projectflutter\mobile-develop\build\connectivity_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:7:5-79
+45-->[:connectivity_plus] C:\KerjaBeyondTech\projectflutter\mobile-develop\build\connectivity_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:7:22-76
+46    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+46-->[androidx.biometric:biometric:1.1.0] C:\Users\Admin\.gradle\caches\transforms-3\375e100a5347d44c34719b17f2a0067d\transformed\biometric-1.1.0\AndroidManifest.xml:27:5-74
+46-->[androidx.biometric:biometric:1.1.0] C:\Users\Admin\.gradle\caches\transforms-3\375e100a5347d44c34719b17f2a0067d\transformed\biometric-1.1.0\AndroidManifest.xml:27:22-71
+47
+48    <permission
+48-->[androidx.core:core:1.13.1] C:\Users\Admin\.gradle\caches\transforms-3\dd1864a705b6759b642410eb2c889f8d\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
+49        android:name="com.zenmultimedia.bpay.bpay_mobile.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+49-->[androidx.core:core:1.13.1] C:\Users\Admin\.gradle\caches\transforms-3\dd1864a705b6759b642410eb2c889f8d\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
+50        android:protectionLevel="signature" />
+50-->[androidx.core:core:1.13.1] C:\Users\Admin\.gradle\caches\transforms-3\dd1864a705b6759b642410eb2c889f8d\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
+51
+52    <uses-permission android:name="com.zenmultimedia.bpay.bpay_mobile.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+52-->[androidx.core:core:1.13.1] C:\Users\Admin\.gradle\caches\transforms-3\dd1864a705b6759b642410eb2c889f8d\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
+52-->[androidx.core:core:1.13.1] C:\Users\Admin\.gradle\caches\transforms-3\dd1864a705b6759b642410eb2c889f8d\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
+53
+54    <application
+55        android:name="android.app.Application"
+56        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+56-->[androidx.core:core:1.13.1] C:\Users\Admin\.gradle\caches\transforms-3\dd1864a705b6759b642410eb2c889f8d\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
+57        android:debuggable="true"
+58        android:enableOnBackInvokedCallback="true"
+59        android:extractNativeLibs="true"
+60        android:icon="@mipmap/ic_launcher"
+61        android:label="BeyondTech" >
+62        <activity
+63            android:name="com.zenmultimedia.bpay.bpay_mobile.MainActivity"
+64            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+65            android:exported="true"
+66            android:hardwareAccelerated="true"
+67            android:launchMode="singleTop"
+68            android:theme="@style/LaunchTheme"
+69            android:windowSoftInputMode="adjustResize" >
+70
+71            <!--
+72                 Specifies an Android theme to apply to this Activity as soon as
+73                 the Android process has started. This theme is visible to the user
+74                 while the Flutter UI initializes. After that, this theme continues
+75                 to determine the Window background behind the Flutter UI.
+76            -->
+77            <meta-data
+78                android:name="io.flutter.embedding.android.NormalTheme"
+79                android:resource="@style/NormalTheme"
+80                android:value="2" />
+81
+82            <intent-filter>
+83                <action android:name="android.intent.action.MAIN" />
+84
+85                <category android:name="android.intent.category.LAUNCHER" />
+86            </intent-filter>
+87        </activity>
+88        <!--
+89             Don't delete the meta-data below.
+90             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+91        -->
+92        <meta-data
+93            android:name="flutterEmbedding"
+94            android:value="2" />
+95
+96        <provider
+96-->[:image_picker_android] C:\KerjaBeyondTech\projectflutter\mobile-develop\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:9:9-17:20
+97            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+97-->[:image_picker_android] C:\KerjaBeyondTech\projectflutter\mobile-develop\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:10:13-82
+98            android:authorities="com.zenmultimedia.bpay.bpay_mobile.flutter.image_provider"
+98-->[:image_picker_android] C:\KerjaBeyondTech\projectflutter\mobile-develop\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-74
+99            android:exported="false"
+99-->[:image_picker_android] C:\KerjaBeyondTech\projectflutter\mobile-develop\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-37
+100            android:grantUriPermissions="true" >
+100-->[:image_picker_android] C:\KerjaBeyondTech\projectflutter\mobile-develop\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-47
+101            <meta-data
+101-->[:image_picker_android] C:\KerjaBeyondTech\projectflutter\mobile-develop\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-16:75
+102                android:name="android.support.FILE_PROVIDER_PATHS"
+102-->[:image_picker_android] C:\KerjaBeyondTech\projectflutter\mobile-develop\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:15:17-67
+103                android:resource="@xml/flutter_image_picker_file_paths" />
+103-->[:image_picker_android] C:\KerjaBeyondTech\projectflutter\mobile-develop\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:16:17-72
+104        </provider> <!-- Trigger Google Play services to install the backported photo picker module. -->
+105        <service
+105-->[:image_picker_android] C:\KerjaBeyondTech\projectflutter\mobile-develop\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:19:9-31:19
+106            android:name="com.google.android.gms.metadata.ModuleDependencies"
+106-->[:image_picker_android] C:\KerjaBeyondTech\projectflutter\mobile-develop\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:20:13-78
+107            android:enabled="false"
+107-->[:image_picker_android] C:\KerjaBeyondTech\projectflutter\mobile-develop\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:21:13-36
+108            android:exported="false" >
+108-->[:image_picker_android] C:\KerjaBeyondTech\projectflutter\mobile-develop\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:22:13-37
+109            <intent-filter>
+109-->[:image_picker_android] C:\KerjaBeyondTech\projectflutter\mobile-develop\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:24:13-26:29
+110                <action android:name="com.google.android.gms.metadata.MODULE_DEPENDENCIES" />
+110-->[:image_picker_android] C:\KerjaBeyondTech\projectflutter\mobile-develop\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:25:17-94
+110-->[:image_picker_android] C:\KerjaBeyondTech\projectflutter\mobile-develop\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:25:25-91
+111            </intent-filter>
+112
+113            <meta-data
+113-->[:image_picker_android] C:\KerjaBeyondTech\projectflutter\mobile-develop\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:28:13-30:36
+114                android:name="photopicker_activity:0:required"
+114-->[:image_picker_android] C:\KerjaBeyondTech\projectflutter\mobile-develop\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:29:17-63
+115                android:value="" />
+115-->[:image_picker_android] C:\KerjaBeyondTech\projectflutter\mobile-develop\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:30:17-33
+116        </service>
+117        <!--
+118           Declares a provider which allows us to store files to share in
+119           '.../caches/share_plus' and grant the receiving action access
+120        -->
+121        <provider
+121-->[:share_plus] C:\KerjaBeyondTech\projectflutter\mobile-develop\build\share_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:13:9-21:20
+122            android:name="dev.fluttercommunity.plus.share.ShareFileProvider"
+122-->[:share_plus] C:\KerjaBeyondTech\projectflutter\mobile-develop\build\share_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-77
+123            android:authorities="com.zenmultimedia.bpay.bpay_mobile.flutter.share_provider"
+123-->[:share_plus] C:\KerjaBeyondTech\projectflutter\mobile-develop\build\share_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-74
+124            android:exported="false"
+124-->[:share_plus] C:\KerjaBeyondTech\projectflutter\mobile-develop\build\share_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:16:13-37
+125            android:grantUriPermissions="true" >
+125-->[:share_plus] C:\KerjaBeyondTech\projectflutter\mobile-develop\build\share_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:17:13-47
+126            <meta-data
+126-->[:image_picker_android] C:\KerjaBeyondTech\projectflutter\mobile-develop\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-16:75
+127                android:name="android.support.FILE_PROVIDER_PATHS"
+127-->[:image_picker_android] C:\KerjaBeyondTech\projectflutter\mobile-develop\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:15:17-67
+128                android:resource="@xml/flutter_share_file_paths" />
+128-->[:image_picker_android] C:\KerjaBeyondTech\projectflutter\mobile-develop\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:16:17-72
+129        </provider>
+130        <!--
+131           This manifest declared broadcast receiver allows us to use an explicit
+132           Intent when creating a PendingItent to be informed of the user's choice
+133        -->
+134        <receiver
+134-->[:share_plus] C:\KerjaBeyondTech\projectflutter\mobile-develop\build\share_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:26:9-32:20
+135            android:name="dev.fluttercommunity.plus.share.SharePlusPendingIntent"
+135-->[:share_plus] C:\KerjaBeyondTech\projectflutter\mobile-develop\build\share_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:27:13-82
+136            android:exported="false" >
+136-->[:share_plus] C:\KerjaBeyondTech\projectflutter\mobile-develop\build\share_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:28:13-37
+137            <intent-filter>
+137-->[:share_plus] C:\KerjaBeyondTech\projectflutter\mobile-develop\build\share_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:29:13-31:29
+138                <action android:name="EXTRA_CHOSEN_COMPONENT" />
+138-->[:share_plus] C:\KerjaBeyondTech\projectflutter\mobile-develop\build\share_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:30:17-65
+138-->[:share_plus] C:\KerjaBeyondTech\projectflutter\mobile-develop\build\share_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:30:25-62
+139            </intent-filter>
+140        </receiver>
+141
+142        <activity
+142-->[:url_launcher_android] C:\KerjaBeyondTech\projectflutter\mobile-develop\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:8:9-11:74
+143            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+143-->[:url_launcher_android] C:\KerjaBeyondTech\projectflutter\mobile-develop\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:9:13-74
+144            android:exported="false"
+144-->[:url_launcher_android] C:\KerjaBeyondTech\projectflutter\mobile-develop\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:10:13-37
+145            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+145-->[:url_launcher_android] C:\KerjaBeyondTech\projectflutter\mobile-develop\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-71
+146
+147        <service
+147-->[androidx.camera:camera-camera2:1.3.4] C:\Users\Admin\.gradle\caches\transforms-3\3337ac03218c2c38595820d2d077c4b1\transformed\jetified-camera-camera2-1.3.4\AndroidManifest.xml:24:9-33:19
+148            android:name="androidx.camera.core.impl.MetadataHolderService"
+148-->[androidx.camera:camera-camera2:1.3.4] C:\Users\Admin\.gradle\caches\transforms-3\3337ac03218c2c38595820d2d077c4b1\transformed\jetified-camera-camera2-1.3.4\AndroidManifest.xml:25:13-75
+149            android:enabled="false"
+149-->[androidx.camera:camera-camera2:1.3.4] C:\Users\Admin\.gradle\caches\transforms-3\3337ac03218c2c38595820d2d077c4b1\transformed\jetified-camera-camera2-1.3.4\AndroidManifest.xml:26:13-36
+150            android:exported="false" >
+150-->[androidx.camera:camera-camera2:1.3.4] C:\Users\Admin\.gradle\caches\transforms-3\3337ac03218c2c38595820d2d077c4b1\transformed\jetified-camera-camera2-1.3.4\AndroidManifest.xml:27:13-37
+151            <meta-data
+151-->[androidx.camera:camera-camera2:1.3.4] C:\Users\Admin\.gradle\caches\transforms-3\3337ac03218c2c38595820d2d077c4b1\transformed\jetified-camera-camera2-1.3.4\AndroidManifest.xml:30:13-32:89
+152                android:name="androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER"
+152-->[androidx.camera:camera-camera2:1.3.4] C:\Users\Admin\.gradle\caches\transforms-3\3337ac03218c2c38595820d2d077c4b1\transformed\jetified-camera-camera2-1.3.4\AndroidManifest.xml:31:17-103
+153                android:value="androidx.camera.camera2.Camera2Config$DefaultProvider" />
+153-->[androidx.camera:camera-camera2:1.3.4] C:\Users\Admin\.gradle\caches\transforms-3\3337ac03218c2c38595820d2d077c4b1\transformed\jetified-camera-camera2-1.3.4\AndroidManifest.xml:32:17-86
+154        </service>
+155
+156        <uses-library
+156-->[androidx.window:window:1.2.0] C:\Users\Admin\.gradle\caches\transforms-3\4ebb674aa41412bc7425383262a543b4\transformed\jetified-window-1.2.0\AndroidManifest.xml:23:9-25:40
+157            android:name="androidx.window.extensions"
+157-->[androidx.window:window:1.2.0] C:\Users\Admin\.gradle\caches\transforms-3\4ebb674aa41412bc7425383262a543b4\transformed\jetified-window-1.2.0\AndroidManifest.xml:24:13-54
+158            android:required="false" />
+158-->[androidx.window:window:1.2.0] C:\Users\Admin\.gradle\caches\transforms-3\4ebb674aa41412bc7425383262a543b4\transformed\jetified-window-1.2.0\AndroidManifest.xml:25:13-37
+159        <uses-library
+159-->[androidx.window:window:1.2.0] C:\Users\Admin\.gradle\caches\transforms-3\4ebb674aa41412bc7425383262a543b4\transformed\jetified-window-1.2.0\AndroidManifest.xml:26:9-28:40
+160            android:name="androidx.window.sidecar"
+160-->[androidx.window:window:1.2.0] C:\Users\Admin\.gradle\caches\transforms-3\4ebb674aa41412bc7425383262a543b4\transformed\jetified-window-1.2.0\AndroidManifest.xml:27:13-51
+161            android:required="false" />
+161-->[androidx.window:window:1.2.0] C:\Users\Admin\.gradle\caches\transforms-3\4ebb674aa41412bc7425383262a543b4\transformed\jetified-window-1.2.0\AndroidManifest.xml:28:13-37
+162
+163        <provider
+163-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\Admin\.gradle\caches\transforms-3\f9ded53b8d55eaa10a5be647a1329cf9\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:24:9-32:20
+164            android:name="androidx.startup.InitializationProvider"
+164-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\Admin\.gradle\caches\transforms-3\f9ded53b8d55eaa10a5be647a1329cf9\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:25:13-67
+165            android:authorities="com.zenmultimedia.bpay.bpay_mobile.androidx-startup"
+165-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\Admin\.gradle\caches\transforms-3\f9ded53b8d55eaa10a5be647a1329cf9\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:26:13-68
+166            android:exported="false" >
+166-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\Admin\.gradle\caches\transforms-3\f9ded53b8d55eaa10a5be647a1329cf9\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:27:13-37
+167            <meta-data
+167-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\Admin\.gradle\caches\transforms-3\f9ded53b8d55eaa10a5be647a1329cf9\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:29:13-31:52
+168                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+168-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\Admin\.gradle\caches\transforms-3\f9ded53b8d55eaa10a5be647a1329cf9\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:30:17-78
+169                android:value="androidx.startup" />
+169-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\Admin\.gradle\caches\transforms-3\f9ded53b8d55eaa10a5be647a1329cf9\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:31:17-49
+170            <meta-data
+170-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Admin\.gradle\caches\transforms-3\a90c82843e8fe5edc6502e3e0ddffa34\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+171                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+171-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Admin\.gradle\caches\transforms-3\a90c82843e8fe5edc6502e3e0ddffa34\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+172                android:value="androidx.startup" />
+172-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Admin\.gradle\caches\transforms-3\a90c82843e8fe5edc6502e3e0ddffa34\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+173        </provider>
+174
+175        <receiver
+175-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Admin\.gradle\caches\transforms-3\a90c82843e8fe5edc6502e3e0ddffa34\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+176            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+176-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Admin\.gradle\caches\transforms-3\a90c82843e8fe5edc6502e3e0ddffa34\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+177            android:directBootAware="false"
+177-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Admin\.gradle\caches\transforms-3\a90c82843e8fe5edc6502e3e0ddffa34\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+178            android:enabled="true"
+178-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Admin\.gradle\caches\transforms-3\a90c82843e8fe5edc6502e3e0ddffa34\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+179            android:exported="true"
+179-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Admin\.gradle\caches\transforms-3\a90c82843e8fe5edc6502e3e0ddffa34\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+180            android:permission="android.permission.DUMP" >
+180-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Admin\.gradle\caches\transforms-3\a90c82843e8fe5edc6502e3e0ddffa34\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+181            <intent-filter>
+181-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Admin\.gradle\caches\transforms-3\a90c82843e8fe5edc6502e3e0ddffa34\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+182                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+182-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Admin\.gradle\caches\transforms-3\a90c82843e8fe5edc6502e3e0ddffa34\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+182-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Admin\.gradle\caches\transforms-3\a90c82843e8fe5edc6502e3e0ddffa34\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+183            </intent-filter>
+184            <intent-filter>
+184-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Admin\.gradle\caches\transforms-3\a90c82843e8fe5edc6502e3e0ddffa34\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+185                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+185-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Admin\.gradle\caches\transforms-3\a90c82843e8fe5edc6502e3e0ddffa34\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+185-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Admin\.gradle\caches\transforms-3\a90c82843e8fe5edc6502e3e0ddffa34\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+186            </intent-filter>
+187            <intent-filter>
+187-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Admin\.gradle\caches\transforms-3\a90c82843e8fe5edc6502e3e0ddffa34\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+188                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+188-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Admin\.gradle\caches\transforms-3\a90c82843e8fe5edc6502e3e0ddffa34\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+188-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Admin\.gradle\caches\transforms-3\a90c82843e8fe5edc6502e3e0ddffa34\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+189            </intent-filter>
+190            <intent-filter>
+190-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Admin\.gradle\caches\transforms-3\a90c82843e8fe5edc6502e3e0ddffa34\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+191                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+191-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Admin\.gradle\caches\transforms-3\a90c82843e8fe5edc6502e3e0ddffa34\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+191-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Admin\.gradle\caches\transforms-3\a90c82843e8fe5edc6502e3e0ddffa34\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+192            </intent-filter>
+193        </receiver>
+194    </application>
+195
+196</manifest>

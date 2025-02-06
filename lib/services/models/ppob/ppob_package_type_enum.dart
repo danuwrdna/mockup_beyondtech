@@ -1,0 +1,4 @@
+enum PpobPackageType {
+  prepaid,
+  postpaid;
+}

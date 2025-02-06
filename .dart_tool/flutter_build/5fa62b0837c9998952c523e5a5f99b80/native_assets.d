@@ -1,0 +1,1 @@
+ D:\\Kerja\ flutter\\mobile-develop\\.dart_tool\\flutter_build\\5fa62b0837c9998952c523e5a5f99b80\\native_assets.yaml: 

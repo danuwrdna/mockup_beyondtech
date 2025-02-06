@@ -1,0 +1,97 @@
+{
+    "boarding": {
+        "page1": {
+            "title": "Transaksi Digital",
+            "desc": "Yuk Mulai Gunakan BePay untuk Pembayaran Bebas Hambatan."
+        },
+        "page2": {
+            "title": "Pengiriman Uang Digital",
+            "desc": "Kami memudahkan Anda menyediakan akses pembayaran global hanya dalam beberapa klik."
+        },
+        "page3": {
+            "title": "Pembayaran Digital",
+            "desc": "Kami menyediakan solusi pembayaran digital untuk semua kebutuhan transaksi Anda"
+        },
+        "next": "Berikutnya",
+        "skip": "Lewati",
+        "continue": "Lanjutkan",
+        "confirm": "Konfirmasi"
+    },
+    "signCheckPage": {
+        "welcome_to": "Selamat datang di BeyondTech",
+        "register_easy": "Masuk atau Daftar hanya dalam beberapa langkah mudah",
+        "terms_privacy_1": "Dengan meng-klik ",
+        "terms_privacy_2": ", anda setuju dengan ",
+        "terms_privacy_3": "Syarat dan Ketentuan ",
+        "terms_privacy_4": "dan ",
+        "terms_privacy_5": "Kebijakan Privasi ",
+        "terms_privacy_6": "yang diatur oleh kami.",
+        "wait_a_minute": "Harap tunggu",
+        "ok_continue": "Baik, Lanjut",
+        "registered": "Nomor ini telah teregistrasi. Silahkan login untuk melanjutkan.",
+        "unregistered": "Nomor ini belum pernah teregistrasi. Silahkan lanjutkan registrasi akun anda.",
+        "beware_scam": "Hati-hati terhadap penipuan karena kami tidak pernah memberikan tautan, meminta PIN, kode OTP ataupun uang.",
+        "learn_more": "Pelajari Lebih Lanjut"
+    },
+    "loginPage": {
+        "please_enter_phone": "Silahkan isi Email atau Nomor Telepon",
+        "please_enter_pass": "Silahkan isi password",
+        "password_must_be": "Password minimal 7 karakter",
+        "welcome_back": "Selamat Datang Kembali",
+        "securely_access": "Akses Akun Anda dengan Aman untuk Mengelola Pembayaran dan Transaksi",
+        "phone_email": "Nomor Telepon / Email",
+        "Password": "Kata Sandi",
+        "Forgotpass": "Lupa Kata Sandi?",
+        "Login": "Masuk"
+    },
+    "forgotPassPage": {
+        "page1": {
+            "please_input_phone": "Silahkan isi nomor telepon",
+            "we_will_send": "Kami akan mengirimkan kode verifikasi ke nomor telepon terdaftar"
+        },
+        "page2": {
+            "otp_verif_title": "Verifikasi OTP",
+            "enter_the_code": "Masukkan kode yang kamu terima melalui",
+            "enter_the_code_at": "pada",
+            "cant_get_code": "Belum mendapatkan kode OTP? ",
+            "resend": "Kirim Ulang",
+            "change_method": "Apakah kamu ingin mengganti metode kirim OTP?"
+        },
+        "page3" : {
+            "lets_create" : "Mari buat kata sandi baru",
+            "new_pass" : "Kata Sandi Baru",
+            "confirm_newpass" : "Konfirmasi Kata Sandi"
+        }
+    },
+    "homepage": {
+        "enjoy_our_services": "Nikmati Layanan Kami",
+        "recommendations_for_you": "Rekomendasi Untukmu",
+        "view_all": "Lihat Semua",
+        "recent_transaction": "Transaksi Terbaru",
+        "more" : "Lainnya"
+    },
+    "historypage" : {
+        "transaction_history" : "Riwayat Transaksi",
+        "all" : "Semua",
+        "received" : "Masuk",
+        "spent" : "Keluar",
+        "ongoing_transaction" : "Transaksi berlangsung ",
+        "need_confirm" : "Butuh Konfirmasi"
+    },
+    "notification" : {
+        "notification_title" : "Notifikasi",
+        "inbox" : "Pesan Masuk"
+    },
+    "profile" : {
+        "account_security" : "Akun dan Keamanan",
+        "general" : "Umum",
+        "invite_friends" : "Undang Teman",
+        "update_acc" : "Perbarui Akun Data",
+        "language" : "Bahasa",
+        "biomethric" : "Autentikasi Biometrik",
+        "rateus" : "Nilai Kami",
+        "tnc" : "Syarat & Ketentuan",
+        "privacypolicy" : "Kebijakan Privasi",
+        "logout" : "Keluar"
+    }
+}
